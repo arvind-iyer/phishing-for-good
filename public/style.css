@@ -1,0 +1,9 @@
+body { font-size: 16pt; }
+.container { width: 960px; margin-left: auto; margin-right: auto; }
+form { border: #cccccc 1px solid; padding: 20px; margin-bottom: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.form-element { margin-bottom: 10px; }
+#refresh-btn { margin-bottom: 20px; }
+.comment { padding: 10px; margin-bottom: 10px; border-bottom: #cccccc 1px solid; }
+.comment .links { float: right; }
+.comment .links a { margin-left: 10px; }
+.comment .author { font-style: italic; }

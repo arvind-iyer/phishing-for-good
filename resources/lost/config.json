@@ -1,0 +1,77 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"contact": {
+			"name": "contact",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "contact",
+			"order": 1
+		},
+		"role": {
+			"name": "role",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "role",
+			"order": 2
+		},
+		"location": {
+			"name": "location",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "location",
+			"order": 3
+		},
+		"datetime": {
+			"name": "datetime",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "datetime",
+			"order": 4
+		},
+		"manufacturer": {
+			"name": "manufacturer",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "manufacturer",
+			"order": 5
+		},
+		"geartype": {
+			"name": "geartype",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "geartype",
+			"order": 6
+		},
+		"color": {
+			"name": "color",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "color",
+			"order": 7
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 8
+		}
+	}
+}
