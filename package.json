@@ -30,6 +30,7 @@
   "dependencies": {
     "deployd": "^0.8.8",
     "dpd": "^0.2.15-beta",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "request": "^2.72.0"
   }
 }

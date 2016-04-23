@@ -2,6 +2,8 @@
 
 var express = require('express');
 var http = require('http');
+var dpd = require('deployd');
+var request = require('request');
 
 var serverPort = process.env.PORT || 3000;
 var nodeEnv = process.env.NODE_ENV || 'development';
@@ -13,6 +15,15 @@ var server = http.createServer(app);
 // Define a new route
 app.get('/hello-express', function (req, res) {
   res.send('Hello Deployd!');
+});
+
+
+app.get('/qr', function(req, res, next) {
+	res.send("https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+req.query.data);
+});
+
+app.get('/items', function(req, res, next) {
+	
 });
 
 // setup deployd
