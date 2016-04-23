@@ -9,12 +9,12 @@
 			"id": "name",
 			"order": 0
 		},
-		"contact": {
-			"name": "contact",
-			"type": "object",
-			"typeLabel": "object",
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
 			"required": false,
-			"id": "contact",
+			"id": "email",
 			"order": 1
 		},
 		"role": {
@@ -72,6 +72,14 @@
 			"required": false,
 			"id": "description",
 			"order": 8
+		},
+		"phone": {
+			"name": "phone",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "phone",
+			"order": 9
 		}
 	}
 }
