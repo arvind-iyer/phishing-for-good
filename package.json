@@ -1,0 +1,35 @@
+{
+  "name": "comments",
+  "version": "1.0.0",
+  "description": "Lost and found reporting for ghost gear fishing equipment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvind-iyer/phishing-for-good.git"
+  },
+  "keywords": [
+    "deployd",
+    "dpd",
+    "fish",
+    "phish",
+    "lost",
+    "found",
+    "ghost",
+    "gear",
+    "net"
+  ],
+  "author": "Arvind Iyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvind-iyer/phishing-for-good/issues"
+  },
+  "homepage": "https://github.com/arvind-iyer/phishing-for-good#readme",
+  "dependencies": {
+    "deployd": "^0.8.8",
+    "dpd": "^0.2.15-beta",
+    "express": "^4.13.4"
+  }
+}
